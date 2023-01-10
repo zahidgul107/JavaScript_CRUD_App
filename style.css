@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+}
+
+.container {
+    display: flex;
+    /* gap: 50px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: space-between;
+    padding: 25px;
+    background-color: #ccc;
+    border-radius: 20px;
+}
+
+.left button {
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+#posts {
+    width: 400px;
+}
+
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options {
+    display: flex;
+    gap: 25px;
+}
+
+i {
+    cursor: pointer;
+}
+
+#msg {
+    color: red;
+}
